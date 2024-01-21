@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.stream.Stream;
 
 public class App {
@@ -10,5 +11,12 @@ public class App {
                 .allMatch(x -> x % 2 == 0);
 
         System.out.println(stream);
+
+        // Q What happens? program hangs
+        // new Random().doubles(-1.0,
+        // +1.0).average().ifPresent(System.out::println);
+
+        new Random().doubles(-1.0,
+                +1.0).limit(100).average().ifPresent(System.out::println);
     }
 }
