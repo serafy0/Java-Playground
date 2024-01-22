@@ -1,4 +1,4 @@
-package playground._21_reduction_operations_and_paralleism.parallel_stream_operation.quick_question.parallel_counter;
+package playground._21_reduction_operations_and_paralleism.parallel_stream_operation.quick_question.q1;
 
 import java.util.stream.LongStream;
 
