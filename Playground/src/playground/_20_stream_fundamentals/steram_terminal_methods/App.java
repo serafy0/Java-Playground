@@ -1,3 +1,5 @@
+package playground._20_stream_fundamentals.steram_terminal_methods;
+
 import java.util.Random;
 import java.util.stream.Stream;
 

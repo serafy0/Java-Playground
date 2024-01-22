@@ -1,3 +1,5 @@
+package playground._20_stream_fundamentals.stream_of_numbers;
+
 import java.util.stream.IntStream;
 
 public class App {
