@@ -1,7 +1,6 @@
 package playground._21_reduction_operations_and_paralleism.downstream_operations.downstream_collecting;
 
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
